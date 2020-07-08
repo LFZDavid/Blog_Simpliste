@@ -29,7 +29,7 @@ abstract class Manager
 
 	public function getList()
 	{
-		$q = $this->db->query('SELECT * FROM'.$this->table);
+		$q = $this->db->query('SELECT * FROM '.$this->table);
 		$q->setFetchMode(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, $this->classManaged);
 
 		return $q->fetchAll();

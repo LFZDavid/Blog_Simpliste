@@ -20,6 +20,7 @@
             </div>
             <footer>
                 <div class="footer-content">
+                    <a href="index.php?action=admin" class="admin">Admin</a>
                 </div>            
             </footer>
         </div>

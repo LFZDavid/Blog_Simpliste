@@ -9,6 +9,7 @@ class Post extends Entity
 
 	protected $title;
 	protected $content;
+	protected $status;
 	protected $created_at;
 	protected $updated_at;
 
@@ -20,6 +21,10 @@ class Post extends Entity
 	public function content()
 	{
 		return $this->content;
+	}
+	public function status()
+	{
+		return $this->status;
 	}
 	public function created_at()
 	{
@@ -39,6 +44,12 @@ class Post extends Entity
 	{
 		if(!empty($content)){
 			$this->content = $content;
+		}
+	}
+	public function setStatus($status)
+	{
+		if(!empty($status)){
+			$this->status = $status;
 		}
 	}
 	public function setCreated_at($created_at)
