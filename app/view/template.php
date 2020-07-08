@@ -12,7 +12,7 @@
         <div class="main">
     	   <header>
                 <div class="header">
-            		<a href="/blog/app/"><h1 class="app-title"><?=$title?></h1></a>
+            		<a href="/blog/app/"><h1 class="app-title">Le Blog</h1></a>
                 </div>
     	   </header>
            <div class="content container">
@@ -20,7 +20,7 @@
             </div>
             <footer>
                 <div class="footer-content">
-                    <a href="index.php?action=admin" class="admin">Admin</a>
+                    <a href="index.php?action=admin" class="admin"><button class="btn btn-default">Page d'administration</button></a>
                 </div>            
             </footer>
         </div>
