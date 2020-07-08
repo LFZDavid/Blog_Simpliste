@@ -22,3 +22,6 @@ BACKEND
 * Connexion à la base de données via PDO
 * Modelisation de la base de données via phpMyAdmin
 * Gestion de la base de données en SQL (MariaDB 10.4.10)
+
+# Structure de la base de données et fixtures
+* Le fichier blog.sql présent dans le dossier "database" comprend la structure de la base de données ainsi que des données pour test.
