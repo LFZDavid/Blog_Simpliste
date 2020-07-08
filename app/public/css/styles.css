@@ -1,0 +1,36 @@
+.app-title{
+	font-size: 30px;
+	text-align: center;
+}
+.page-title{
+	font-size: 20px;
+}
+
+/* PostShow*/
+.post-date{
+    margin-bottom: 20px;
+}
+/* CAROUSEL */
+.left.carousel-control, 
+.right.carousel-control{
+    background-image:none;
+    color: #d82c2e;
+}
+.carousel-indicators{
+    bottom: 0px;
+}
+.carousel-indicators li{
+    border-color: #d82c2e;
+}
+.carousel-indicators li.active{
+    background-color: #d82c2e;
+}
+#blogCarousel .item{
+    padding: 40px 30px;
+}
+#blogCarousel .item{
+    font-style: italic;
+}
+.carousel-inner{
+	height: 200px;
+}
